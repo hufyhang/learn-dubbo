@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CostServiceImpl implements CostService {
   @Override
-  public Integer addNumber(int cost) {
+  public Integer doubleItUp(int cost) {
     return cost + cost;
   }
 }

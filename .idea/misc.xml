@@ -5,6 +5,8 @@
     <file type="web" url="file://$PROJECT_DIR$/api" />
     <file type="web" url="file://$PROJECT_DIR$/consumer" />
     <file type="web" url="file://$PROJECT_DIR$/provider" />
+    <file type="web" url="file://$PROJECT_DIR$/rest" />
+    <file type="web" url="file://$PROJECT_DIR$/rest-provider" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,11 +15,14 @@
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rest/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/rest/pom.xml" />
       </set>
     </option>
   </component>
