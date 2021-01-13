@@ -12,6 +12,7 @@ public class ProductServiceImpl implements ProductService {
 
   @Override
   public Integer getCost(int a) {
+    System.out.println("[LOG] Invoke ProductService#getCost");
     return costService.doubleItUp(a);
   }
 }
