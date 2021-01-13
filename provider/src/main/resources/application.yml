@@ -1,0 +1,22 @@
+server:
+  port: 8087
+
+dubbo:
+  application:
+    id: dubbo-provider
+    name: dubbo-provider
+  registry:
+    id: zookeeper-registry
+    protocol: zookeeper
+    address: zookeeper://127.0.0.1:2181
+  metadata-report:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 48610
+    accesslog: dubbo-access.log
+  provider:
+    retries: 0
+    timeout: 3000
+  monitor:
+    protocol: registry
